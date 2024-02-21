@@ -6,8 +6,16 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent{
-  @Input() text__titleH2:string="O mercado de Angular apresenta crescimento";
-  @Input() text__descriptionP:string="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, iusto assumenda. Totam doloremque nihil nostrum, illo labore natus beatae non laborum suscipit cumque libero, exercitationem tenetur odit pariatur quod autem?"
+  @Input()
+  date__bigCardArticle:string=""
+  @Input()
+  title__bigCardArticle:string=""
+  @Input()
+  img__bigCardArticle:string=""
+  @Input()
+  description__bigCardArticle:string=""
+  @Input()
+  linkTitle__bigCardArticle:string=""
   constructor() { }
 
 

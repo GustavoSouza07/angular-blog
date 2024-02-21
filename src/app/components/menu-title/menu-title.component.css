@@ -13,3 +13,18 @@
   margin: 10px 0px;
   text-transform: uppercase;
 }
+
+
+/* media querys */
+@media only screen and (max-width:821px) {
+  .container__menu-title{
+    width: 100%;
+  }
+  body{
+    display: flex;
+  }
+
+  .container__menu-title h1{
+    font-size: 80px;
+  }
+}
